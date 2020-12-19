@@ -1,0 +1,26 @@
+#content {
+	direction: rtl;
+}
+#package {
+ color: #084d83; font-size: 20px; text-align: center;
+ }
+#package-title1 {
+	
+	margin: 15px 30px 15px 22px; padding-bottom: 1px; text-align: right;
+}
+#Fertilizer-box{
+	 padding: 1px 10px 10px 10px;
+    border: 2px solid #134811;
+    margin: 15px 22px;
+    background-color: #fff;
+    direction: rtl;
+}
+#Fertilizer-box h5{
+margin: 10px 0 0 0; font-size: 17px; color: #4a89bf; padding: 0;text-align:left;
+}
+#box-td{
+width: 177px; max-width: 20%; vertical-align: top; padding-top: 8px; padding-left: 20px; text-align: center;
+}
+.button{
+display: inline-block !important; background: #DDD !important; font-size: 11px !important; color: #999 !important; padding: 0 10px;
+}
