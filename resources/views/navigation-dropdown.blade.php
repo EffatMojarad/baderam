@@ -13,8 +13,21 @@
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
-                        {{ __('Dashboard') }}
+                        {{ __('داشبورد') }}
                     </x-jet-nav-link>
+					<x-jet-nav-link href="{{ route('welcome') }}" :active="request()->routeIs('/')">
+                        {{ __('خانه') }}
+                    </x-jet-nav-link>
+					<x-jet-nav-link href="http://127.0.0.1:8000/farmer-information" :active="request()->routeIs('/farmer-information')">
+                        {{ __('اطلاعات گیاه') }}
+                    </x-jet-nav-link>
+					<x-jet-nav-link href="http://127.0.0.1:8000/user/profile" >
+                        {{ __('پروفایل') }}
+                    </x-jet-nav-link>
+					<x-jet-nav-link href="http://127.0.0.1:8000/Calender" :active="request()->routeIs('/Calender')">
+                        {{ __('تقویم') }}
+                    </x-jet-nav-link>
+					
                 </div>
             </div>
 
@@ -121,6 +134,7 @@
                 {{ __('Dashboard') }}
             </x-jet-responsive-nav-link>
         </div>
+		
 
         <!-- Responsive Settings Options -->
         <div class="pt-4 pb-1 border-t border-gray-200">

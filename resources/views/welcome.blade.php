@@ -72,9 +72,9 @@
                     @endif
 
             @endif
-			    <li><a href="#">تماس با پشتیبانی</a></li>
-    <li><a href="#">مشاوره گیاه پزشکی</a></li>
-    <li><a href="#">مقالات</a></li>
+			    <li><a href="/contactus">تماس با پشتیبانی</a></li>
+    <li><a href="/Herbalmedicineadvice">مشاوره گیاه پزشکی</a></li>
+    <li><a href="/articles">مقالات</a></li>
     <li><a href="#">سبد خرید</a></li>
 	<li><a href="#">برنامه کود آبیاری</a></li>
   </ul>

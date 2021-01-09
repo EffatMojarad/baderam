@@ -18,7 +18,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #2b3e51;
   background-color: #ffffff;
-  direction: rtl;
+  
 }
 
 a {
@@ -35,6 +35,7 @@ Form
   width: 90%;
   max-width: 600px;
   margin: 4em auto;
+  direction: rtl;
 }
 .cd-form::after {
   clear: both;

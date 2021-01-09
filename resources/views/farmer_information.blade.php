@@ -1,5 +1,4 @@
 <!doctype html>
-<html dir="rtl" lang="en" class="no-js">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,7 +12,15 @@
     <title>بادرام گستر</title>
 </head>
 <body>
-<form class="cd-form floating-labels" action="{{url('/farmer-information')}}" method="post">
+<x-app-layout>
+    <x-slot name="header">
+       
+    </x-slot>
+
+    <div class="py-12">
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+            <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
+ <form class="cd-form floating-labels" action="{{url('/farmer-information')}}" method="post">
     @csrf
     <fieldset>
         <legend> اطلاعات گیاه</legend>
@@ -176,6 +183,12 @@ height: 30px; "/>
                         </li>
                     </ul>
                     -->
+					 Select image to upload:
+    <input type="file" name="fileToUpload" id="fileToUpload">
+	
+					
+					
+					
         </div>
 
         <div class="icon">
@@ -222,5 +235,18 @@ height: 30px; "/>
         });
     });
 </script>
+            </div>
+        </div>
+    </div>
+</x-app-layout>
+
+
+
+
+
+
+
+
+
 </body>
 </html>
